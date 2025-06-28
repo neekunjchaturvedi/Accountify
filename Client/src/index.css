@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+.primary {
+  @apply bg-gradient-to-r from-red-500 to-pink-500;
+}
