@@ -17,7 +17,7 @@ function Layout() {
         <Header setOpen={setOpenSidebar} />
 
         {/* Main content area with responsive padding */}
-        <main className="flex-1 flex-col flex bg-muted/40 p-2 sm:p-4 md:p-6 overflow-x-hidden">
+        <main className="flex-1 flex-col flex bg-muted/40 bg-white p-2 sm:p-4 md:p-6 overflow-x-hidden">
           <Outlet />
         </main>
       </div>
