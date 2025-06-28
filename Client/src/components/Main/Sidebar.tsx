@@ -82,13 +82,13 @@ export default function SideBar({ open, setOpen }: SideBarProps) {
     <Fragment>
       {/* Mobile sidebar */}
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetContent side="left" className="w-56 p-0 overflow-y-auto">
+        <SheetContent side="left" className="w-56 p-0 overflow-y-auto bg-white">
           <MenuItems setOpen={setOpen} />
         </SheetContent>
       </Sheet>
 
       {/* Desktop sidebar */}
-      <aside className="hidden lg:flex fixed top-0 left-0 h-full w-64 flex-col border-r bg-white shadow z-40">
+      <aside className="hidden lg:flex fixed top-0 left-0 h-full w-64 flex-col border-r border-gray-50 bg-white shadow z-40">
         <MenuItems />
       </aside>
 
